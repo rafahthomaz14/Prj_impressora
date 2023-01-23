@@ -55,4 +55,3 @@ for lista in lista_arquivos:
         texto_resposta.grid(column=0, row=2, padx=10, pady=10)
 
         arquivo.mainloop()
-
