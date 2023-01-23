@@ -55,3 +55,8 @@ for lista in lista_arquivos:
         texto_resposta.grid(column=0, row=2, padx=10, pady=10)
 
         arquivo.mainloop()
+  
+# Para gerar um arquivo Exe.
+# Instalar - pyinstaller
+# pip install pyinstaller 
+# digitar no terminal do editor, pyinstaller --onefile -w nome_do_arquivo.py ( o "-w " é usado apenas quanto tem uma interface!)
