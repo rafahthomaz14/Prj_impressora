@@ -1,10 +1,14 @@
-       etiqueta= r"C:\Users\ADM\Desktop\etiquetas"
+import shutil
 
-        for root,dirs,file in os.walk(etiqueta):
+caminho_original = 'C:\Users\mkt\Desktop\'
+caminho_novo = ''
+
+
+  for root,dirs,files in os.walk(caminho_novo):
 
             for file in files:
-                new_file_path = os.path.join(etiqueta,file)
+                old_file_path = os.path.join(root,file)
+                new_file_path = os.path.join(caminho_novo,file)
 
         if '.pdf' in file:
             os.remove(new_file_path)
-
