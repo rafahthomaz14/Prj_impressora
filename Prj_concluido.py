@@ -1,3 +1,7 @@
+# Código tem a função de selecionar todos os arquivos PDF de uma pasta salva na máquina e imprimir ao clicar no botão;
+# Após ser fechado todos os arquivos da pasta é excluido!
+
+
 # - pip install pywin32 -    código para instalar no prompt de comando
 
 from importlib.metadata import files
